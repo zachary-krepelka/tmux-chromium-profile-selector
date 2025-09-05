@@ -83,10 +83,10 @@ set -g @plugin 'zachary-krepelka/tmux-chromium-profile-selector'
 
 ### Manual installation
 
-Clone the repo into a directory of your choice, say `~/.tmux/plugins/profile-chooser`.
+Clone this repo into a directory of your choice, say `~/.tmux/plugins/profile-chooser`.
 
 ```bash
-git clone https://github.com/zachary-krepelka/tmux-chromium-profile-selector.git ~/.tmux/plugins/profile-chooser`
+git clone https://github.com/zachary-krepelka/tmux-chromium-profile-selector.git ~/.tmux/plugins/profile-chooser
 ```
 
 Add this line to your `~/.tmux.conf`, changing the directory accordingly.
@@ -104,8 +104,8 @@ must set two options in your `~/.tmux.conf` in order for this plugin to function
 properly.
 
 ```tmux.conf
-set-option -g @chomium_exec "/path/to/executable"
-set-option -g @chomium_data "/path/to/file"
+set-option -g @chromium_exec "/path/to/executable"
+set-option -g @chromium_data "/path/to/file"
 ```
 
 Note that these values are read dynamically each time the keybinding is invoked,
